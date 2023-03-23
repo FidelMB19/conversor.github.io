@@ -1,0 +1,158 @@
+:root {
+    --primary-color: rgb(6, 112, 154);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    
+    font-family: cursive, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1{
+    color: var(--primary-color);
+    }
+
+img.change{
+    width: 50px;
+    background-color: white;
+    display: flex;
+    vertical-align: center;
+    
+}
+
+p{
+    text-align: center;
+    }
+
+.btn1{
+    color: white;
+    background: var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+
+.conversor-imagen{
+    width: 150px;
+}
+
+.moneda{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moneda select{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.moneda input {
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+}
+
+.cambio-divisa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cambiar{
+    color: var(--primary-color);
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}
+
+.contenedor-2{
+    font-family: cursive, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 20px;
+    padding: 20px;
+}
+
+img.change{
+    width: 50px;
+    background-color: white;
+    display: flex;
+    vertical-align: center;
+}
+
+.fila{
+    margin: 15px 0;
+}
+
+select{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    border-radius: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(6, 112, 154);
+
+}
+
+input{
+   width: 220px;
+   padding: 10px 20px 10px 10px;
+   border: 0;
+   font-size: 20px;
+   text-align: center;
+    
+}
+
+
+.resultado{
+    width: 220px;
+    padding: 10px 20px 10px 10px;
+    border: 0;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+@media (max-width:600px) {
+    .moneda input{
+        width: 200px;
+    }
+    
+    
+}
